@@ -4,5 +4,5 @@ first_name = "ada"
 last_name = "lovelace"
 full_name = f"{first_name} {last_name}" # como formatar string com f-strings
 # full_name = "{} {}".format(first_name, last_name) # como formatar usando o método .format
-# print(full_name)
-print(f"Hello, {full_name.title()}!")
+message = f"Hello, {full_name.title()}!"
+print(message)
